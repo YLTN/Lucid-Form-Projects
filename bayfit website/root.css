@@ -1,0 +1,17 @@
+:root {
+    --light-red: rgb(233, 120, 120);
+    --red: rgb(230, 44, 44);
+    --dark-red: rgb(167, 35, 35);
+    --light-green: rgb(65, 179, 93);
+    --green: rgb(0, 175, 44);
+    --dark-green: rgb(0, 117, 29);
+    --light-orange: rgb(255, 193, 122);
+    --orange: rgb(255, 156, 42);
+    --dark-orange: rgb(187, 106, 14);
+    --black: rgb(26, 26, 26);
+    --light-grey: rgb(221, 221, 221);
+    --steel-grey: rgb(139, 139, 139);
+    --grey: rgb(92, 92, 92);
+    --radius-small: 25px;
+    --radius-big: 40px;
+}

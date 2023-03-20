@@ -1,0 +1,54 @@
+main {
+    height: calc(100% - 56px);
+    width: 100%;
+}
+
+#side-bar {
+    height: 100%;
+    width: 22%;
+    background-color: aqua;
+}
+
+#chat {
+    height: 100%;
+    width: 78%;
+    background-color: blue;
+}
+
+#side-search-bar {
+    height: 2.3rem;
+    margin: 0.3rem 0;
+    width: 90%;
+}
+
+#side-search-field {
+    position: relative;
+    width: 80%;
+    height: 100%;
+    margin: 0.3rem;
+    padding: 0 0.8rem;
+    border: 1px solid black;
+    border-radius: 3rem;
+    font-size: 1rem;
+}
+
+
+#side-search-field::placeholder {
+    margin-left: 10px;
+    font-size: 1rem;
+}
+
+#side-search-btn {
+    all: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100%;
+    font-size: 1.4rem;
+}
+
+#side-search-btn:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Inder">
+    <link rel="stylesheet" type="text/css" href="./styles/main.css">
+    <link rel="stylesheet" id="currentstyle" type="text/css" href="./styles/campus.css">
+    <link rel="stylesheet" type="text/css" href="./styles/mediaqueries.css">
+    <link rel="icon" type="image/x-icon" href="./images/ltelogo.ico">
+    <title>Lycée Technique Errazi</title>
+</head>
+<script defer src="./scripts/index.js"></script>
+<body>
+    <!-- Navigation Bar -->
+    <div id="navmen">
+        <ul id="navmenbtns">
+            <li>
+                <button class="navmenbtn" onclick="loadMenu(); loadPage('Intro');">Introduction</button>
+            </li>
+            <li>
+                <button class="navmenbtn" onclick="loadMenu(); loadPage('Campus');">Campus</button>
+            </li>
+            <li>
+                <button class="navmenbtn" onclick="loadMenu(); loadPage();">Programme</button>
+            </li>
+            <li>
+                <button class="navmenbtn" onclick="loadMenu(); loadPage();">Contact</button>
+            </li>
+        </ul>
+    </div>
+    <button id="switch" onclick="loadMenu();"></button>
+    <nav id="nav">
+        <h3 id="title">Lycée Technique Errazi</h3>
+        <ul id="navbtns">
+            <li>
+                <button class="navbtn" onclick="loadPage('Intro');">Introduction</button>
+            </li>
+            <li>
+                <button class="navbtn" onclick="loadPage('Campus');">Campus</button>
+            </li>
+            <li>
+                <button class="navbtn" onclick="loadPage();">Programme</button>
+            </li>
+            <li>
+                <button class="navbtn" onclick="loadPage();">Contact</button>
+            </li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="coolangle" id="angleherotop"></div>
+            <h1 id="herotitle">Campus</h1>
+            <div class="coolangle" id="angleherobot"></div>
+        </section>
+        <!-- Info Section -->
+        <section id="info">
+            <div id="infocard" class="card">
+                <div id="libraryimg" class="card">
+
+                </div>
+                <div id="infocardcontent" class="cardcontent">
+                    <h3 id="infotitle" class="cardtitle">Our Campus</h3>
+                    <p id="infodesc" class="carddesc">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Maxime mollitia, molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum 
+                        numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer>
+        <p>copyright thing</p>
+    </footer>
+</body>
+</html>

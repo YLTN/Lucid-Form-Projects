@@ -1,0 +1,79 @@
+#login-sect {
+  height: calc(95vh - 50px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#login-form {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  background-color: var(--main-light-color);
+  border-radius: 20px;
+}
+
+#login-label {
+  text-align: center;
+  font-size: 1.5em;
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  background-color: rgba(255,255,255,0.3);
+  color: white;
+  border: none;
+  border-radius: 10px;
+  width: 45%;
+  margin: 10px 20px;
+  font-size: 1.1em;
+}
+
+input::placeholder {
+  color: rgba(255,255,255,0.4);
+}
+
+input:-ms-input-placeholder {
+  color: black;
+}
+
+label {
+  margin-left: 20px;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+input[type="checkbox"] {
+  margin: 10px 0 15px 20px;
+  width: 25px;
+}
+
+input[type="checkbox"] ~ label {
+  margin-left: 0;
+}
+
+#forgot-password {
+  color: var(--main-light-blue);
+  margin-left: 20px;
+}
+
+#submit-btn {
+  all: unset;
+  padding: 7px 15px;
+  width: 70px;
+  margin: 10px 20px;
+  text-align: center;
+  font-weight: 500;
+  border-radius: 10px;
+  background-color: var(--main-blue);
+  color: white;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  opacity: 70%;
+}

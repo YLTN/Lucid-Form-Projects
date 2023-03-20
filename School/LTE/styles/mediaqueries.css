@@ -1,0 +1,125 @@
+/* Media Queries */
+
+@media only screen and (max-width: 1000px) {
+
+    nav {
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    #features {
+        width: 85%;
+        margin: -100px 7.5% 7% 7.5%;
+    }
+
+    #introcontent {
+        padding: 0 5%;
+    }
+
+    #navbtns {
+        visibility: hidden;
+        position: absolute;
+        left: 0;
+        height: 0;
+        width: 0;
+        opacity: 0;
+    }
+
+    #switch {
+        visibility: visible;
+    }
+
+    #herotitle {
+        font-size: 3em;
+    }
+
+    #herotitlesec {
+        max-width: 700px;
+        padding-top: 17%;
+        margin-left: 7%;
+    }
+
+    #card2 {
+        flex-direction: column;
+    }
+
+    #card2 > .cardcontent > .imgtitle {
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    #card2 > .cardcontent > .imgtitle > .cardimg {
+        margin: 10px;
+    }
+
+    #card3 > .cardcontent > .imgtitle {
+        flex-direction: row;
+        margin: 10px;
+    }
+
+    #card3 > .cardcontent > .imgtitle > .cardimg {
+        margin: 10px;
+    }
+
+    .carddesc {
+        font-size: larger;
+    }
+
+    #introdesc {
+        font-size: large;
+    }
+
+    #schoolimg, #libraryimg {
+        height: 50%;
+        width: 100%;
+    }
+
+    #info, #campus {
+        width: 90%;
+        min-height: 600px;
+        margin: 7% 5%;
+    }
+
+    #infocard, #campcard {
+        flex-direction: column;
+    }
+
+    #infocardcontent, #campcardcontent {
+        height: 50%;
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+
+    #features {
+        width: 95%;
+        margin: -100px 2.5% 7% 2.5%;
+    }
+
+    #card1 {
+        flex-direction: column;
+    }
+
+    #card2 > .cardcontent > .imgtitle {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #card2 > .cardcontent > .imgtitle > .cardimg {
+        margin: 20% 0 0 0;
+    }
+
+    #card3 > .cardcontent > .imgtitle {
+        flex-direction: column;
+        margin: auto;
+    }
+
+    #card3 > .cardcontent > .imgtitle > .cardimg {
+        margin: 20% 0 0 0;
+    }
+
+    #info {
+        min-height: 700px;
+    }
+}

@@ -1,0 +1,119 @@
+:root{
+  --main-dark-color:  #161a1d;
+  --main-light-blue: #6190d6;
+  --main-blue: #0b5ed7;
+  --main-dark-blue: #063a89;
+  --main-grey-blue: #324157;
+  --main-color:  #212529;
+  --main-light-color:  #4c5761;
+  --main-light-background-color:  #282929;
+  --logo-font-family: 'Tilt Warp';
+  --main-font-family: 'Roboto';
+  --logo-img-path: url('/public/images/Logo.png');
+}
+
+body {
+  margin: 0;
+  font-family: var(--main-font-family);
+  background-color: var(--main-color);
+}
+
+nav {
+  position: relative;
+  background-color: var(--main-dark-color);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  overflow: hidden;
+  padding: 5px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.8);
+}
+
+#logo {
+  position: absolute;
+  top: -5px;
+  left: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--logo-font-family);
+  font-size: 1.2em;
+}
+
+#logo-img {
+  height: 45px;
+  width: 40px;
+  margin: 5px;
+  margin-right: 10px;
+  background: var(--logo-img-path);
+  background-size: cover;
+  background-position: center;
+}
+
+.navbtn, .authbtn {
+  all: unset;
+  margin: 7px;
+  transition: all 200ms;
+  font-size: 1.1em;
+  font-family: var(--main-font-family);
+  font-weight: 500;
+}
+
+.navbtn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.navbtn:active {
+  color: grey;
+}
+
+#auth-sect {
+  position: absolute;
+  top: 13px;
+  right: 10px;
+}
+
+.authbtn {
+  padding: 7px 15px;
+  border-radius: 10px;
+}
+
+#login {
+  background-color: var(--main-blue);
+  color: white;
+}
+
+#register {
+  background-color: var(--main-color);
+  color: white;
+}
+
+#shopping-cart {
+  all: unset;
+  font-size: 1.3em;
+  padding: 4px;
+  margin-right: 5px;
+}
+
+#shopping-cart:hover {
+  cursor: pointer;
+  color: lightgrey;
+}
+
+#login:hover, #register:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#login:hover {
+  opacity: 70%;
+}
+
+#register:hover {
+  opacity: 70%;
+}

@@ -1,0 +1,144 @@
+/* === Index/Main Page === */
+
+/* Hero Section */
+
+#hero {
+    min-height: 500px;
+    background-image: url(../images/classimg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#gradient {
+    height: 200px;
+    width: 100%;
+    background: linear-gradient(rgba(255,255,255,0),rgba(255,255,255,1));
+    z-index: 100;
+}
+
+#herotitle {
+    color: #ffffff;
+    font-family: var(--font-family);
+    line-height: 1.5em;
+    letter-spacing: 1.5px;
+    font-size: 3.3em;
+    text-shadow: 0 0 20px black;
+}
+
+#success {
+    text-decoration: underline;
+}
+
+#herotitlesec {
+    max-width: 700px;
+    padding-top: 7%;
+    margin-left: 10%;
+}
+
+/* Features Cards */
+
+#features {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    margin: -100px 12.5% 7% 12.5%;
+}
+
+.cardimg {
+    height: 75px;
+    width: 75px;
+    margin: 20% 0 0 0;
+    background-color: grey;
+    border-radius: 100px;
+}
+
+.cardtitle {
+    font-family: var(--font-family);
+    text-shadow: 0 0 var(--shadow-blur) var(--shadow-color);
+    font-size: x-large;
+}
+
+.imgtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.carddesc {
+    font-family: var(--font-family);
+    font-size: larger;
+    margin: 0 25px 15px 25px;
+}
+
+.cardcontent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+    border-radius: var(--border-radius);
+    box-shadow: 0 0 var(--shadow-blur) var(--shadow-color);
+    background-color: white;
+}
+
+/* Intro Section */
+
+#intro {
+    text-align: center;
+    font-family: var(--font-family);
+    width: 100%;
+}
+
+#introcontent {
+    padding: 0 10%;
+}
+
+#introtitle {
+    font-size: 2em;
+    text-shadow: 0 0 var(--shadow-blur) var(--shadow-color);
+}
+
+#introdesc {
+    font-size: 1.3em;
+}
+
+/* Second Card Section */
+
+#campus {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin: 7% 10%;
+}
+
+#campcard {
+    flex-direction: row-reverse;
+}
+
+#campcardcontent {
+    width: 50%;
+    margin: 5% 0;
+}
+
+#camptitle {
+    font-size: 1.8em ;
+}
+
+#schoolimg {
+    background-image: url(../images/schoolimgr.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 100%;
+    box-shadow: initial;
+    box-shadow: inset 0 0 var(--shadow-blur) var(--shadow-color);
+}
